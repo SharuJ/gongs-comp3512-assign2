@@ -8,10 +8,7 @@
     
         <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable mdl-textfield--floating-label mdl-textfield--align-right">
             
-            <!--<label class="mdl-button mdl-js-button mdl-button--icon" for="fixed-header-drawer-exp">-->
-            <!--    <i class="material-icons">search</i>-->
-            <!--</label>-->
-            <!--class="mdl-textfield__expandable-holder mdl-color-text--white"-->
+
             <div > 
             <!--https://codepen.io/anon/pen/GOyKVb-->
                 <form id= "demo-2" action="browse-employees.php" method="get">

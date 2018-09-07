@@ -18,9 +18,5 @@ class UsersLoginGateway extends TableGateway {
     protected function getForeignKeyName() {
             return "UserName";
     }
-    
-    // protected function getLoginInfo() {
-    //     return "Select UserName, Password, Salt from Users";
-    // }
 }
 ?>

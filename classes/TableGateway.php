@@ -100,15 +100,5 @@ abstract class TableGateway {
         return $statement->fetchAll();
         
     }
-    
-    // public function findUsersLogin(){
-    //     $sql = $this->getSelectStatement();
-        
-    //     $sql.= 'where UserName';
-        
-    //     $statement = DatabaseHelper::runQuery($this->connection, $sql, null);
-    //     return $statement->fetchAll();
-        
-    // } 
 }
 ?>

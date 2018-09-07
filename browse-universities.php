@@ -1,12 +1,5 @@
 <?php
-    //require_once("includes/config.php");
-    // session_start();
-    
-    // if(!isset($_SESSION['email'])){
-        
-    //     header("Location: signin.php?name='browse-universities'");
-    // }
-    
+
     include "includes/checkSession.php";
     
     function listName() /* programmatically loop though universities and display each university as <li> element. */ 
@@ -68,7 +61,7 @@
                             map: map
                             });
                         }
-                    </script>
+                    </script> <!-- back to html -->
                 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgOg-dKVI4dgMyBcTKOWj3xxS1jKipA3E&callback=initMap">
                 </script>
                 <?php //back to php

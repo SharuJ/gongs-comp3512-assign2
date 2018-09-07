@@ -1,13 +1,7 @@
 <?php
-
-   // session_start();
     
-    // if(!isset($_SESSION['email'])){
-        
-    //     header("Location: signin.php?name=index");
-    // }
-    
-    //include "includes/checkSession.php";
+    // dashboard does not require sign in
+    //include "includes/checkSession.php"; 
 
 ?>
 
@@ -58,7 +52,7 @@
                     </div>
                     <div class="demo-card-square mdl-card mdl-shadow--2dp">
                         <div id="aboot" class="mdl-card__title mdl-card--expand"> </div>
-                        <div class="mdl-card__supporting-text"> This page displays my name, the course name and number, date and sources. </div>
+                        <div class="mdl-card__supporting-text"> This page displays about the site, link to Github, group members' names and sources. </div>
                         <div class="mdl-card__actions mdl-card--border"> <a href="aboutus.php" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
                               About
                             </a> </div>

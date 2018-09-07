@@ -1,22 +1,6 @@
 <?php
 include 'config.php';
 session_start();
-// function dispUN(){
-// try{
-//     $pdo = new PDO(DBCONNSTRING, DBUSER, DBPASS);
-//     $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-//     $un = $_POST['username'];
-//     $sql = "SELECT UserID, UserName, Email FROM Users WHERE UserName = '" . $_SESSION['username'] . "'";
-//         $result = mysql_query($sql);
-//         $row = mysql_fetch_array($result);
-//     echo ($row['UserName']);
-//     $pdo = null; // Closing Connection
-// }
-// catch (PDOException $e)
-//         {
-//             die($e->getMessage());
-//         }
-// }
 
 ?>
 

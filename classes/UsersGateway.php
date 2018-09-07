@@ -19,9 +19,5 @@ class UsersGateway extends TableGateway {
     protected function getForeignKeyName() {
             return "Email";
     }
-    
-    // protected function getUserInfo() {
-    //     return "Select FirstName, LastName, Email from Users";
-    // }
 }
 ?>

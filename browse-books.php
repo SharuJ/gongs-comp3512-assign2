@@ -1,9 +1,5 @@
 <?php
-    // session_start();
-    // if (!isset($_SESSION['email']))
-    // {
-    //     header("Location: signin.php?name=browse-books");
-    // }
+
     include "includes/checkSession.php";
     function listSubs() /* programmatically loop though subcategories and display each subcategory as <li> element. */ 
     {

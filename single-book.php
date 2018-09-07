@@ -1,9 +1,5 @@
 <?php
-    // session_start();
-    // if (!isset($_SESSION['email']))
-    // {
-    //     header("Location: signin.php?name='browse-books'");
-    // }
+
     include "includes/checkSession.php";
     function displayName() /* display requested book title */ 
     {
@@ -43,7 +39,8 @@
                 
                 img.onclick = function() {
                     modal.style.display = "block";
-                    modalImg.src = <?php echo "'/book-images/large/" . $row["ISBN10"] . ".jpg'"?>;
+                    // there is a parsing error, but it still runs. when I print out the commented alert it shows the right path for the large image
+                    modalImg.src = <?php echo "'/book-images/large/" . $row["ISBN10"] . ".jpg'"?> ;
                     //alert(modalImg.src);
                 }
                 
